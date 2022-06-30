@@ -21,3 +21,13 @@ let nombre = prompt("ingrese su nombre");
 console.log(nombre)
 
 document.write ("<p>Hola " + nombre + "</p>");
+
+//ejemplo de constante
+const url = "https://campus.rollingcodeschool.com/"
+
+document.write(url)
+
+//modificar la variable nombre
+nombre = "mauri"
+document.write ("<p>Hola " + nombre + "</p>");
+
