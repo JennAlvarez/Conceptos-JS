@@ -14,4 +14,10 @@ console.log("prueba de consola");
 //alert("desde una ventana emergente");
 
 //sumemos dos valores
-document.write('resultado: '+ (12 + 5))
+document.write('resultado: '+ (12 + 5));
+
+//para crear una variable selecciono var o let o consol
+let nombre = prompt("ingrese su nombre");
+console.log(nombre)
+
+document.write ("<p>Hola " + nombre + "</p>");
