@@ -26,3 +26,13 @@ cambiar condicion logica
 //     document.write("<br> preparar mate y pasar al siguiente compañero, mate cebado n "+ mate);
 //     mate++
 // }while (mate <=20)
+
+/* bucle FOR se ejecuta si la condicion logica se cumple si o si
+for(inicializar la variable; condicion logica; incrementar o decrementar la variable declarada al principio){
+    todo el codigo a ejecutar repetidas veces
+} 
+*/
+
+for(let mate = 1; mate <= 20; mate++){
+    document.write("<br> preparar mate y pasar al siguiente compañero, mate cebado n "+ mate);    
+}
