@@ -2,10 +2,11 @@
 
 while(condicion logica){
     todas las lineas de codigo de lo que quiero que repita  el programa
-    cambiar la condicion logica
+    cambiar la condicion logica para no tener un bucle infinito
 }
 
 */
+
 let cantidad = 1;
 
 while(cantidad <= 20){
