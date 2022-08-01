@@ -1,4 +1,8 @@
-let estacion = parseInt(prompt("Ingresa tu estacion del a;o favorita: 1-verano, 2-otoño, 3-primevera, 4-invierno"))
+let estacion = parseInt(
+  prompt(
+    "Ingresa tu estacion del a;o favorita: 1-verano, 2-otoño, 3-primevera, 4-invierno"
+  )
+);
 
 // if(estacion == 1){
 //     document.write('Helado')
@@ -32,19 +36,20 @@ switch(opcion){
 }
 */
 
-switch(estacion){
-    case 1:
-        document.write('Helado')
-        break;
-    case 2:
-        document.write('Locro')
-        break;
-    case 3:
-        document.write('Cerveza')
-        break;
-    case 4:
-        document.write('Chocolate')
-        break;
-    default:
-        document.write("Ingresaste una opcion incorrecta")
+switch (estacion) {
+  case 1:
+    document.write("Helado");
+    break;
+  case 2:
+    document.write("Locro");
+    break;
+  case 3:
+    document.write("Cerveza");
+    break;
+  case 4:
+    document.write("Chocolate");
+    break;
+
+  default:
+    document.write("Ingresaste una opcion incorrecta");
 }
